@@ -1,0 +1,8 @@
+i=1
+a=1
+while [ $i -lt $# ] 
+do
+    echo $i
+    i=`expr $i+$a`
+done
+        
